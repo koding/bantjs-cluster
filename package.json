@@ -1,0 +1,31 @@
+{
+  "name": "bant-cluster",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "intersect": "^0.1.0",
+    "toposort": "^0.2.10",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bantjs/cluster.git"
+  },
+  "keywords": [
+    "bantjs",
+    "bant"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bantjs/cluster/issues"
+  },
+  "homepage": "https://github.com/bantjs/cluster"
+}
